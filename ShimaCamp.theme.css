@@ -49,7 +49,7 @@
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
   --user-modal-image: url('https://rimgo.bus-hit.me/wsUnqET.png');
-  --user-modal-position: 250px -50px;
+  --user-modal-position: center; /*was 250px -50px*/
   --user-modal-size: 100%;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
