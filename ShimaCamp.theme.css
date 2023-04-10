@@ -25,7 +25,7 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: #FF7A00;
-  --background-image: url('https://cdn.horizon.pics/qiTaIqwskE.jpg');
+  --background-image: url('https://rimgo.bus-hit.me/W7zUToP.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -39,7 +39,7 @@
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.35);
   /*--user-popout-image: url('https://cdn.horizon.pics/1l7Kgn9Vbj.jpg');*/
-  --user-popout-image: url('https://cdn.horizon.pics/NxVjY2K7ej.jpg');
+  --user-popout-image: url('https://rimgo.bus-hit.me/AILWbKz.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -50,7 +50,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://cdn.horizon.pics/qOP0tNjhaP.png');
+  --user-modal-image: url('https://rimgo.bus-hit.me/wsUnqET.png');
   --user-modal-position: 250px -50px;
   --user-modal-size: 100%;
   --user-modal-repeat: no-repeat;
@@ -61,7 +61,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 2px;
-  --home-icon: url('https://cdn.horizon.pics/eBf6eqaUW0.gif');
+  --home-icon: url('https://rimgo.bus-hit.me/GTgvyYq.gif');
   --home-position: center;
   --home-size: 54px;
   --channel-unread: var(--main-color);
@@ -113,3 +113,11 @@
     display: none;
 }
 
+.userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA:not(.profileCustomizationPreview-3zZw6E) .userPopoutInner-nv9Y92::before {
+  background: rgba(0, 0, 0, .7);
+  filter: none;
+}
+
+.menu-2TXYjN {
+  background-color: rgba(0,0,0,.7);
+}
