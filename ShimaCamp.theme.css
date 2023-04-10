@@ -11,13 +11,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css');
 @import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+/**@import url('https://raw.githubusercontent.com/maenDisease/BetterDiscordStuff/main/css/ProfileBannerSkins.css');*/
 
 :root {
   --main-color: rgb(201, 37, 187);
@@ -111,13 +109,4 @@
 @import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css');
 .popoutBanner-16rVDY, .profileBanner-2zIsK7 {
     display: none;
-}
-
-.userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA:not(.profileCustomizationPreview-3zZw6E) .userPopoutInner-nv9Y92::before {
-  background: rgba(0, 0, 0, .7);
-  filter: none;
-}
-
-.menu-2TXYjN {
-  background-color: rgba(0,0,0,.7);
 }
