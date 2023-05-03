@@ -112,3 +112,24 @@
 .popoutBanner-16rVDY, .profileBanner-2zIsK7 {
     display: none;
 }
+
+.userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA .userPopoutInner-nv9Y92,
+.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM .userPopoutInner-nv9Y92 {
+    background: var(--user-popout-overlay);
+}
+.userProfileOuterThemed-2BgJCM {
+    background: transparent;
+}
+.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM:not(.profileCustomizationPreview-3zZw6E) .userPopoutInner-nv9Y92::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) var(--user-popout-repeat) var(--user-popout-attachment);
+    filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
