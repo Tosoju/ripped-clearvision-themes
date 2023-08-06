@@ -1,6 +1,6 @@
 /**
- * @name ShimaCamp
- * @author ClearVision Team
+ * @name Mokou
+ * @author ClearVision Team and Tosoju
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
@@ -25,8 +25,8 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: #FF7A00;
-  --background-image: url('https://img3.gelbooru.com//images/d2/30/d230cde10ce5d4de0749b38208be8cc8.jpg');
-  --background-shading: 100%;
+  --background-image: url('https://media.discordapp.net/attachments/1072703486032093214/1137621946943676516/UpV5Dnh.jpg');
+  --background-shading: 111%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -39,7 +39,7 @@
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.35);
   /*--user-popout-image: url('https://cdn.horizon.pics/1l7Kgn9Vbj.jpg');*/
-  --user-popout-image: url('https://cdn.statically.io/gh/Tosoju/vencord-shimacamp/main/AILWbKz.jpg');
+  --user-popout-image: url('https://media.discordapp.net/attachments/1072703486032093214/1137623250822770688/KxB7k7M.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -49,8 +49,8 @@
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
-  --user-popout-blur: 3px;
-  --user-modal-image: url('https://cdn.statically.io/gh/Tosoju/vencord-shimacamp/main/bd1589f54954ce1b324ee68793c4ab64.jpg');
+  --user-popout-blur: 2px;
+  --user-modal-image: url('https://media.discordapp.net/attachments/1072703486032093214/1137623077912588359/TvIFCgT.jpg');
   --user-modal-position: center; /*was 250px -50px*/
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -60,8 +60,8 @@
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 2px;
-  --home-icon: url('https://cdn.statically.io/gh/Tosoju/vencord-shimacamp/main/GTgvyYq.gif');
+  --user-modal-blur: 1px;
+  --home-icon: url('https://media.discordapp.net/attachments/1072703486032093214/1137622268936208394/lVdsxat.jpg');
   --home-position: center;
   --home-size: 54px;
   --channel-unread: var(--main-color);
