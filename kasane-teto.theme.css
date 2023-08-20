@@ -37,7 +37,7 @@
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 0px;
+  --background-blur: 1px;
   --background-overlay: rgba(0,0,0,0.35);
   /*--user-popout-image: url('https://cdn.horizon.pics/1l7Kgn9Vbj.jpg');*/
   --user-popout-image: url('https://img3.gelbooru.com//images/37/3d/373d0dcf7a8271e399eb0599f20f61e4.png');
@@ -62,7 +62,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 1px;
-  --home-icon: url('https://img3.gelbooru.com//images/42/89/42891768fcdd3e86e86571cb65508fbf.jpg');
+  --home-icon: url('https://media.discordapp.net/attachments/1133772121621921912/1142669111441227816/Screenshot_1710.png');
   --home-position: center;
   --home-size: 54px;
   --channel-unread: var(--main-color);
@@ -73,7 +73,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: Red Hat Text;
+  --main-font: Comic Sans MS;
   --code-font: Source Code Pro;
   --channels-width: 220px;
   --members-width: 240px;
