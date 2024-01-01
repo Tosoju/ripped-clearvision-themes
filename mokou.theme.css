@@ -107,6 +107,8 @@
   --rs-phone-visible: block;
 }
 
+@import url(https://raw.githubusercontent.com/MrDiamondDog/noUglyIconsTheme/master/theme.css);  /*old icons*/
+
 /* Any custom CSS below here */
 /*@import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css');
 .popoutBanner-16rVDY, .profileBanner-2zIsK7 {
