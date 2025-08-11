@@ -1,0 +1,108 @@
+/**
+ * @name Mokou V7
+ * @author ClearVision Team and Tosoju
+ * @version 7.0.0
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;700&display=swap');
+@import url('https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+/*@import url('https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css');*/
+/*@import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');*/
+/* SETTINGS */
+:root {
+  /* ACCENT COLORS */
+  --main-color: rgb(201, 37, 187);
+  --hover-color: #861E9A;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  /* STATUS COLORS */
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  /* BACKGROUND IMAGES */
+  --background-image: url(https://files.catbox.moe/m0kbll.png);
+  --background-attachment: fixed;
+  --user-popout-image: url(https://files.catbox.moe/vl3571.png);
+  --user-popout-attachment: scroll;
+  --user-modal-image: url(https://qu.ax/DsCag.jpg);
+  --user-modal-attachment: fixed;
+  /* HOME ICON */
+  --home-icon: url(https://rdgb.net/u/95oRfc3P.jpg);
+  /* FONTS */
+  --main-font: Red Hat Text;
+  --code-font: Source Code Pro;
+  /* BACKGROUND IMAGE FILTERS */
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /*im not sure what this does*/
+  --user-popout-filter: var(--background-filter);
+  --user-modal-filter: var(--background-filter);
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* GREY THEME / DARK THEME IN OLD UI */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* DARK THEME - NEW UI EXCLUSIVE */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* MIDNIGHT THEME - NEW UI EXCLUSIVE */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --background-shading-percent: 100%;
+  --card-shading: rgba(0, 0, 0, 0.5);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
+
+.mask__68edb {
+  mask: linear-gradient(black, transparent);
+  /*display: none;*/
+}
