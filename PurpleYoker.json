@@ -1,7 +1,7 @@
 {
   "name": "Purple Yoker",
   "description": "Purple and Kayoko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Tosoju"
@@ -9,40 +9,40 @@
   ],
   "semanticColors": {
     "BACKGROUND_ACCENT": [
-      "#D397E8"
+      "#C879E1"
     ],
     "BACKGROUND_BRAND": [
-      "#D397E8"
+      "#C879E1"
     ],
     "MENTION_FOREGROUND": [
-      "#D397E8"
+      "#C879E1"
     ],
     "TEXT_LINK": [
-      "#D397E8"
+      "#C879E1"
     ],
     "INTERACTIVE_ACTIVE": [
-      "#D397E8"
+      "#C879E1"
     ],
     "INTERACTIVE_HOVER": [
-      "#B958C7"
+      "#B346C1"
     ],
     "CHANNELS_DEFAULT": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "CHANNEL_ICON": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "HEADER_SECONDARY": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "INTERACTIVE_MUTED": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "TEXT_MUTED": [
-      "#F5C5C5"
+      "#F8C2D6"
     ],
     "ANDROID_NAVIGATION_SCRIM_BACKGROUND": [
       "#080808"
@@ -235,36 +235,36 @@
     ]
   },
   "rawColors": {
-    "BRAND_200": "#D397E8",
-    "BRAND_260": "#D397E8",
-    "BRAND_300": "#D397E8",
-    "BRAND_330": "#D397E8",
-    "BRAND_345": "#D397E8",
-    "BRAND_360": "#D397E8",
-    "BRAND_400": "#D397E8",
-    "BRAND_430": "#D397E8",
-    "BRAND_460": "#D397E8",
-    "BRAND_500": "#D397E8",
-    "BRAND_530": "#D397E8",
-    "BRAND_600": "#D397E8",
-    "BRAND_630": "#D397E8",
-    "BRAND_660": "#D397E8",
-    "BRAND_700": "#D397E8",
-    "PLUM_3": "#D397E8",
-    "PLUM_15": "#D397E8",
-    "PRIMARY_300": "#D397E8",
-    "PRIMARY_360": "#D397E8",
-    "PRIMARY_500": "#D397E8",
-    "PRIMARY_530": "#D397E8",
-    "BRAND_560": "#B958C7",
-    "PRIMARY_400": "#B958C7",
-    "PLUM_9": "#F5C5C5",
-    "PLUM_10": "#F5C5C5",
-    "PLUM_11": "#F5C5C5",
-    "PLUM_13": "#F5C5C5",
-    "PRIMARY_730": "#F5C5C5",
-    "ROLE_DEFAULT": "#F5C5C5",
-    "WHITE_630": "#F5C5C5",
+    "BRAND_200": "#C879E1",
+    "BRAND_260": "#C879E1",
+    "BRAND_300": "#C879E1",
+    "BRAND_330": "#C879E1",
+    "BRAND_345": "#C879E1",
+    "BRAND_360": "#C879E1",
+    "BRAND_400": "#C879E1",
+    "BRAND_430": "#C879E1",
+    "BRAND_460": "#C879E1",
+    "BRAND_500": "#C879E1",
+    "BRAND_530": "#C879E1",
+    "BRAND_600": "#C879E1",
+    "BRAND_630": "#C879E1",
+    "BRAND_660": "#C879E1",
+    "BRAND_700": "#C879E1",
+    "PLUM_3": "#C879E1",
+    "PLUM_15": "#C879E1",
+    "PRIMARY_300": "#C879E1",
+    "PRIMARY_360": "#C879E1",
+    "PRIMARY_500": "#C879E1",
+    "PRIMARY_530": "#C879E1",
+    "BRAND_560": "#B346C1",
+    "PRIMARY_400": "#B346C1",
+    "PLUM_9": "#F8C2D6",
+    "PLUM_10": "#F8C2D6",
+    "PLUM_11": "#F8C2D6",
+    "PLUM_13": "#F8C2D6",
+    "PRIMARY_730": "#F8C2D6",
+    "ROLE_DEFAULT": "#F8C2D6",
+    "WHITE_630": "#F8C2D6",
     "PLUM_17": "#080808",
     "PLUM_20": "#080808",
     "PLUM_24": "#080808",
